@@ -1,0 +1,25 @@
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400italic,700italic,400,700);
+// Bourbon
+@import 'bourbon';
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+
+// Theme Variables
+$background-color: #FAFAFA;
+$text-color: #333333;
+$text-size: 14px;
+
+html, body {
+	width: 100%; height: 100%;
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	background: $background-color;
+	font-family: $roboto-slab;
+	font-size: $text-size;
+	
+	body {
+		padding: 10px;
+	}
+}
