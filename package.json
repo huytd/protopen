@@ -4,7 +4,10 @@
   "description": "It's like codepen.io but not codepen.io",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --port 3000"
+    "postinstall": "npm run build",
+    "start": "node app.js",
+    "build": "NODE_ENV=production webpack -p",
+    "watch": "webpack-dev-server --inline --port 3000"
   },
   "author": "Huy",
   "license": "MIT",
